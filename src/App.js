@@ -1,13 +1,12 @@
 import './assets/css/main.scss'
+import LandingPage from './pages/landing';
+import Navbar from './components/navbar/navbar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-         Hello World
-        </p>
-      </header>
+      <Navbar/>
+      <LandingPage/>
     </div>
   );
 }
