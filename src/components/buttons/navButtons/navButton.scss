@@ -1,0 +1,21 @@
+.navButton {
+    background-color: transparent;
+    border: none;
+    color: var(--white);
+    cursor: pointer;
+    &:hover{
+        &::after {
+            width: 100%;
+        }
+    }
+}
+
+.navButton::after {
+    content:'';
+    position: relative;
+    display: block;
+    border-top: 2px solid var(--white);
+    width: 0%;
+    transition-duration: 1s;
+}
+

@@ -1,6 +1,6 @@
 import './assets/css/main.scss'
-import LandingPage from './pages/landing';
-import Navbar from './components/navbar/navbar';
+import LandingPage from './pages/landing'
+import Navbar from './components/navbar/navbar'
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <Navbar/>
       <LandingPage/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

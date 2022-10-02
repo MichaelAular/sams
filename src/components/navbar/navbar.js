@@ -1,17 +1,16 @@
 import "./navbar.scss"
+import NavButton from "../buttons/navButtons/navButton"
 
 function navbar() {
-    return(
-        <div className="navbarContainer">
-            <ul>
-                <li>Over Ons</li>
-                <li>Permanente Make-Up</li>
-                <li>Producten</li>
-                <li>Huisregels</li>
-                <li>Contact</li>
-            </ul>
-        </div>
-    )
+  return (
+    <div className="navbarContainer">
+      <NavButton title="Over Ons" />
+      <NavButton title="Producten" />
+      <NavButton title="Permanente Make-Up" />
+      <NavButton title="Huisregels" />
+      <NavButton title="Contact" />
+    </div>
+  )
 }
 
-export default navbar;
+export default navbar
