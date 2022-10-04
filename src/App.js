@@ -1,14 +1,21 @@
-import './assets/css/main.scss'
-import LandingPage from './pages/landing'
-import Navbar from './components/navbar/navbar'
+import "./assets/css/main.scss";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Navbar from "./components/navbar/navbar";
+import LandingPage from "./pages/landing";
+import ProductPage from "./pages/producten";
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <LandingPage/>
+      <Navbar />
+      <Router>
+        <Switch>
+          <Route exact path="/" component={LandingPage} />
+          <Route exact path="/producten" component={ProductPage} />
+        </Switch>
+      </Router>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
