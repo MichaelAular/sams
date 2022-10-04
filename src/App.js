@@ -6,15 +6,15 @@ import ProductPage from "./pages/producten";
 
 function App() {
   return (
+    <Router>
     <div className="App">
       <Navbar />
-      <Router>
         <Switch>
           <Route exact path="/" component={LandingPage} />
           <Route exact path="/producten" component={ProductPage} />
         </Switch>
-      </Router>
     </div>
+    </Router>
   );
 }
 

@@ -4,11 +4,11 @@ import NavButton from "../buttons/navButtons/navButton"
 function navbar() {
   return (
     <div className="navbarContainer">
-      <NavButton title="Over Mij" />
-      <NavButton title="Producten" />
-      <NavButton title="Permanente Make-Up" />
-      <NavButton title="Huisregels" />
-      <NavButton title="Contact" />
+      <NavButton title="Over Mij" linkTo="/" />
+      <NavButton title="Producten" linkTo="/producten" />
+      <NavButton title="Permanente Make-Up" linkTo="/permamakeup" />
+      <NavButton title="Huisregels" linkTo="/huisregels" />
+      <NavButton title="Contact" linkTo="/contact" />
     </div>
   )
 }
