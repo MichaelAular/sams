@@ -6,7 +6,7 @@ function navbar() {
     <div className="navbarContainer">
       <NavButton title="Over Mij" linkTo="/" />
       <NavButton title="Producten" linkTo="/producten" />
-      <NavButton title="Permanente Make-Up" linkTo="/permamakeup" />
+      <NavButton title="Permanente Make-Up" linkTo="/permanente_makeup" />
       <NavButton title="Huisregels" linkTo="/huisregels" />
       <NavButton title="Contact" linkTo="/contact" />
     </div>

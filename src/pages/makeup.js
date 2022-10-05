@@ -1,7 +1,7 @@
-import pageLogo from "../assets/img/logos/banner_products_white.png";
+import pageLogo from "../assets/img/logos/banner_brows_white.png";
 import pageImage from "../assets/img/pages/001.png";
 
-function productPage() {
+function makeupPage() {
   return (
     <div className="page">
       <div className="banner">
@@ -9,7 +9,7 @@ function productPage() {
         <div className="bannerTextContainer">
           <img src={pageLogo} className="bannerLogo" alt="sam's beauty logo" />
           <div className="bannerText">
-            <p>Hier komen producten te staan!</p>
+            <p>Hier komen voorbeelden van Permanente Makeup te staan!</p>
           </div>
         </div>
       </div>
@@ -17,4 +17,4 @@ function productPage() {
   );
 }
 
-export default productPage;
+export default makeupPage;

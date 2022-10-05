@@ -1,4 +1,4 @@
-import pageLogo from "../assets/img/logos/banner_products_white.png";
+import pageLogo from "../assets/img/logos/banner_contact_white.png";
 import pageImage from "../assets/img/pages/001.png";
 
 function productPage() {
@@ -9,7 +9,7 @@ function productPage() {
         <div className="bannerTextContainer">
           <img src={pageLogo} className="bannerLogo" alt="sam's beauty logo" />
           <div className="bannerText">
-            <p>Hier komen producten te staan!</p>
+            <p>Hier komen contact gegevens te staan!</p>
           </div>
         </div>
       </div>
