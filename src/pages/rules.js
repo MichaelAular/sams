@@ -1,7 +1,11 @@
 import pageLogo from "../assets/img/logos/banner_rules_white.png";
 import pageImage from "../assets/img/pages/001.png";
+import aboutmePageSlice from "../reduxStore/slices/aboutmePageSlice";
 
 function rulesPage() {
+
+  console.log(aboutmePageSlice)
+
   return (
     <div className="page">
       <div className="banner">
@@ -9,7 +13,7 @@ function rulesPage() {
         <div className="bannerTextContainer">
           <img src={pageLogo} className="bannerLogo" alt="sam's beauty logo" />
           <div className="bannerText">
-            <p>Hier komen regels te staan!</p>
+            <p>Hier komen huisregels te staan.</p>
           </div>
         </div>
       </div>
