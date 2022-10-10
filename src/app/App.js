@@ -1,11 +1,11 @@
-import "./assets/css/main.scss";
+import "../assets/css/main.scss";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Navbar from "./components/navbar/navbar";
-import LandingPage from "./pages/landing";
-import ProductPage from "./pages/producten";
-import MakeUpPage from "./pages/makeup";
-import RulesPage from "./pages/rules";
-import ContactPage from "./pages/contact";
+import Navbar from "../components/navbar/navbar";
+import LandingPage from "../pages/landing";
+import ProductPage from "../pages/producten";
+import MakeUpPage from "../pages/makeup";
+import RulesPage from "../pages/rules";
+import ContactPage from "../pages/contact";
 
 function App() {
   return (
